@@ -10,7 +10,7 @@ const connectDB = async () => {
     console.log(`Database Connected: ${process.env.MONGO_URI}`);
   } catch (error) {
     console.error(`Database Connection Error: ${error.message}`);
-    process.exit(1);
+    // process.exit(1);
   }
 };
 
